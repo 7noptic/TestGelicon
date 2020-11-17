@@ -1,0 +1,53 @@
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 47px 0;
+  background-color: #fff;
+
+  &__text {
+    font-size: 36px;
+    max-width: 1150px;
+  }
+
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+
+
+//@media screen and (min-height: 1370px){
+//  .footer {
+//    position: absolute;
+//    left: 0;
+//    bottom: 0;
+//  }
+//}
+
+@media screen and(max-width: 510px) {
+  .footer {
+    &__text {
+      font-size: 28px;
+      max-width: 1150px;
+    }
+  }
+}
+
+
+@media screen and(max-width: 425px) {
+  .footer {
+    &__text {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.addCard {
+  padding: 18px 53px;
+  color: #fff;
+  background-color: #2CC34F;
+  font-size: 18px;
+  border: none;
+  transition: .3s all;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken(#2CC34F, 15%);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: lighten(#2CC34F, 15%);
+    transform: scale(0.95);
+    outline: none;
+    border: none;
+  }
+}
+
+.addCard {
+  display: block;
+  margin: 0 auto;
+}
